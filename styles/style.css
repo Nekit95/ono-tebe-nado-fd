@@ -87,10 +87,7 @@ header {
 
 .cover {
   position: relative;
-  background-image: url("../images/cover.jpg");
-  background-size: cover;
-  background-position: center; 
-  background-repeat: no-repeat;
+  background: url( ../images/cover.jpg ) center/cover no-repeat;
   padding: 165px 50px 50px;
   color: #fff;
   display: flex;
@@ -189,7 +186,6 @@ header {
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-left: 0;
   padding: 12px;
   margin-left: 31px;
 }
@@ -356,7 +352,7 @@ header {
 .footer__menu-list {
   display: grid;
   justify-items: center;
-  gap: 21px;
+  gap: 1px;
   font-size: 18px;
   list-style: none;
   padding: 0;
